@@ -15,3 +15,17 @@ function whileLoop(n) {
     n--;
   } return 'done';
 }
+
+function doWhileLoop(arr) {
+
+  function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+do {
+  arr.splice(0, 1)
+} while(arr.length > 0 && maybeTrue()); {
+  return arr;
+}
+
+} 
